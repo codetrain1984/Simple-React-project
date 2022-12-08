@@ -1,0 +1,48 @@
+.navbar {
+  background-color: antiquewhite;
+  width: 80%;
+  margin: auto;
+  position: sticky;
+  border-radius: 3px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+.navItems {
+  list-style: none;
+  margin: 10px;
+}
+.navAnchor {
+  color: salmon;
+  text-decoration: none;
+  font-weight: 600;
+}
+.penLogo {
+  font-size: 50px;
+  color: salmon;
+  transform: rotate(180deg);
+  margin-left: 20px;
+}
+.navNumber {
+  background-color: salmon;
+  display: flex;
+  align-items: center;
+  padding: 36px;
+  font-size: 20px;
+  float: right;
+  color: antiquewhite;
+  font-weight: 30px;
+}
+.icon {
+  margin-right: 10px;
+  font-size: 30px;
+  color: antiquewhite;
+}
