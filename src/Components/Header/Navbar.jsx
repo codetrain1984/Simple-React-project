@@ -8,7 +8,10 @@ const Navbar = () => {
   return (
     <div className="navbar">
       {/* <img className="logo" src="/images/pen-logo.png" alt="/" /> */}
-      <FaPenNib className="penLogo" />
+      <div className="logoItems">
+        <FaPenNib className="penLogo" />
+        <h1>Course</h1>
+      </div>
       <ul className="navList">
         <li className="navItems">
           <a className="navAnchor" href="#">

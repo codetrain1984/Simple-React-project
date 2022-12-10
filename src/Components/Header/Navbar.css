@@ -25,11 +25,15 @@
   text-decoration: none;
   font-weight: 600;
 }
+.logoItems {
+  margin-left: 28px;
+  color: rgb(49, 48, 48);
+}
 .penLogo {
   font-size: 50px;
   color: salmon;
   transform: rotate(180deg);
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .navNumber {
   background-color: salmon;

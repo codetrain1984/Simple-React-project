@@ -1,0 +1,12 @@
+.headerBox {
+  background-color: darkslategrey;
+  margin: 20px 0;
+}
+.headerBox span {
+  color: salmon;
+  font-size: 36px;
+}
+.headerBox h2,
+p {
+  color: #fff;
+}
