@@ -14,9 +14,11 @@ const Header = () => {
           Get your <span>Education</span> today!
         </h1>
       </div>
-      <HeaderBox title="Online Courses" logo={<ImEarth />} />
-      <HeaderBox title="Our Library" logo={<FaSwatchbook />} />
-      <HeaderBox title="Our Teachers" logo={<FaChalkboardTeacher />} />
+      <div className="boxes">
+        <HeaderBox title="Online Courses" logo={<ImEarth />} />
+        <HeaderBox title="Our Library" logo={<FaSwatchbook />} />
+        <HeaderBox title="Our Teachers" logo={<FaChalkboardTeacher />} />
+      </div>
     </div>
   );
 };

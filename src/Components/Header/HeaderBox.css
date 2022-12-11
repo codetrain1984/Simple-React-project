@@ -1,12 +1,29 @@
 .headerBox {
   background-color: darkslategrey;
-  margin: 20px 0;
+  margin: 20px 14px;
+  width: 350px;
+  padding: 28px;
+  border-radius: 5px;
 }
 .headerBox span {
   color: salmon;
-  font-size: 36px;
+  font-size: 48px;
 }
-.headerBox h2,
-p {
+
+.headerBox h2 {
+  margin-left: 20px;
+  font-size: 28px;
   color: #fff;
+}
+.headerBox p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

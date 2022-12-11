@@ -1,0 +1,40 @@
+.courseBox {
+  background-color: aliceblue;
+  width: 360px;
+}
+.boxItems {
+  padding: 28px;
+  text-align: center;
+}
+.courseImg {
+  /* width: 360px; */
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.boxItems h3 {
+  font-size: 22px;
+  letter-spacing: 0.5px;
+}
+.boxItems p {
+  color: gray;
+  font-size: 14px;
+  margin-top: 6px;
+}
+.personelBox {
+  background-color: rgb(228, 227, 227);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.personelBox p {
+  font-weight: 500;
+}
+.personelBox span {
+  color: gray;
+  font-size: 14px;
+}
+.personelBox h4 {
+  background-color: salmon;
+  padding: 18px;
+}
