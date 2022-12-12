@@ -1,16 +1,23 @@
 import React from "react";
 import "./CourseBoxes.css";
+import personalImg from "../../images/Course/personal.jpg";
 
-const CourseBoxes = ({ image }) => {
+const CourseBoxes = ({ image, boxTitle }) => {
   return (
     <div className="courseBox">
-      <img className="courseImg" src={image} alt="/" />
       <div className="boxItems">
-        <h3>A complete guide to design</h3>
+        <img className="courseImg" src={image} alt="/" />
+        <h3>{boxTitle}</h3>
         <p>Adobe Guide, Layes, Smart Objects etc...</p>
       </div>
       <div className="personelBox">
-        <img src="" alt="/" />
+        <img
+          width={46}
+          height={46}
+          className="personalImg"
+          src={personalImg}
+          alt="/"
+        />
         <p>
           Michael Smith,<span>Author</span>
         </p>

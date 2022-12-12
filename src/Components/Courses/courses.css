@@ -19,3 +19,9 @@
   height: 5px;
   background-color: salmon;
 }
+.courseBoxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 40px;
+}
