@@ -24,13 +24,20 @@
   color: salmon;
   text-decoration: none;
   font-weight: 600;
+  font-size: 18px;
 }
 .logoItems {
-  margin-left: 28px;
+  margin-left: 16px;
   color: rgb(49, 48, 48);
+  display: flex;
+  align-items: center;
+}
+.logoItems h1 {
+  margin-left: 10px;
+  color: darkslategrey;
 }
 .penLogo {
-  font-size: 50px;
+  font-size: 40px;
   color: salmon;
   transform: rotate(180deg);
   margin-left: 30px;
@@ -40,10 +47,13 @@
   display: flex;
   align-items: center;
   padding: 36px;
-  font-size: 20px;
   float: right;
   color: antiquewhite;
   font-weight: 30px;
+}
+.navNumber p {
+  font-size: 20px;
+  font-weight: 500;
 }
 .icon {
   margin-right: 10px;

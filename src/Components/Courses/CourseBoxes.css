@@ -14,6 +14,8 @@
   object-fit: contain;
 }
 .boxItems h3 {
+  color: darkslategray;
+
   font-size: 22px;
   letter-spacing: 0.5px;
   margin-top: 60px;
@@ -32,6 +34,7 @@
 }
 .personelBox p {
   font-weight: 500;
+  color: darkslategray;
 }
 .personelBox span {
   color: gray;
@@ -40,6 +43,7 @@
 .personelBox h4 {
   background-color: salmon;
   padding: 18px;
+  color: darkslategray;
 }
 .personalImg {
   border-radius: 50%;

@@ -7,7 +7,6 @@ import { FaPenNib } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div className="navbar">
-      {/* <img className="logo" src="/images/pen-logo.png" alt="/" /> */}
       <div className="logoItems">
         <FaPenNib className="penLogo" />
         <h1>Course</h1>
@@ -46,7 +45,7 @@ const Navbar = () => {
       </ul>
       <div className="navNumber">
         <BsTelephoneFill className="icon" />
-        +989123768818
+        <p>+989123768818</p>
       </div>
     </div>
   );

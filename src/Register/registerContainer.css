@@ -1,0 +1,80 @@
+.registerContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.registerSection {
+  background-color: salmon;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registerContent {
+  width: 55%;
+  text-align: center;
+}
+.registerContent h2 {
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.4;
+  color: antiquewhite;
+}
+.registerContent span {
+  color: darkslategrey;
+}
+.registerContent p {
+  color: antiquewhite;
+  text-align: center;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+.registerBtn {
+  background-color: darkslategrey;
+  color: antiquewhite;
+  padding: 16px 48px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.searchCourse {
+  background-color: antiquewhite;
+  color: darkslategrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchSection {
+  width: 55%;
+}
+.searchSection h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.searchContent {
+  margin-top: 40px;
+}
+input {
+  display: block;
+  font-size: 16px;
+  color: gray;
+  border: none;
+  width: 100%;
+  padding: 14px 16px;
+  /* padding-left: 16px; */
+  margin: 16px 0;
+}
+input:focus {
+  outline: none;
+}
+.searchSection button {
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 16px;
+  border: none;
+  background-color: salmon;
+  color: antiquewhite;
+}
