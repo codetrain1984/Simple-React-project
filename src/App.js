@@ -3,6 +3,7 @@ import Courses from "./Components/Courses/Courses";
 import Header from "./Components/Header/Header";
 import RegisterContainer from "./Components/Register/RegisterContainer";
 import Services from "./Components/ServiceSection/Services";
+import StudentsPrf from "./Components/Students/StudentsPrf";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Courses />
       <RegisterContainer />
       <Services />
+      <StudentsPrf />
     </div>
   );
 }
