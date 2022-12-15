@@ -1,7 +1,8 @@
 import "./App.css";
 import Courses from "./Components/Courses/Courses";
 import Header from "./Components/Header/Header";
-import RegisterContainer from "./Register/RegisterContainer";
+import RegisterContainer from "./Components/Register/RegisterContainer";
+import Services from "./Components/ServiceSection/Services";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Courses />
       <RegisterContainer />
+      <Services />
     </div>
   );
 }

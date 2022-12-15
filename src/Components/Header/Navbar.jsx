@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="logoItems">
         <FaPenNib className="penLogo" />
-        <h1>Course</h1>
+        <h2>Course</h2>
       </div>
       <ul className="navList">
         <li className="navItems">

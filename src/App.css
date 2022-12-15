@@ -7,3 +7,14 @@
 
   font-family: "Roboto", sans-serif;
 }
+h1,
+h2,
+h3 {
+  color: darkslategray;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 40px;
+}

@@ -1,0 +1,15 @@
+.serviceBoxes {
+  padding: 8px;
+  margin-top: 60px;
+}
+.serviceBoxes h3 {
+  font-size: 26px;
+  margin: 20px 0;
+}
+.serviceBoxes span {
+  color: salmon;
+  font-size: 48px;
+}
+.serviceBoxes p {
+  line-height: 1.6;
+}

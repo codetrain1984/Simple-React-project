@@ -1,0 +1,16 @@
+.serviceContianer {
+  margin-top: 60px;
+}
+
+.serviceSection {
+  max-width: 1280px;
+  margin: 60px auto;
+}
+.serviceSection h2 {
+  text-align: center;
+}
+.serviceContent {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 20px;
+}

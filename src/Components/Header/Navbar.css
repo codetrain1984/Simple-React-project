@@ -32,9 +32,8 @@
   display: flex;
   align-items: center;
 }
-.logoItems h1 {
-  margin-left: 10px;
-  color: darkslategrey;
+.logoItems h2 {
+  margin-left: 14px;
 }
 .penLogo {
   font-size: 40px;
