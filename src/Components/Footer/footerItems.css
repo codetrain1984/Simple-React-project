@@ -1,0 +1,56 @@
+.footer-items {
+  width: 1140px;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.col1 p {
+  color: antiquewhite;
+  line-height: 1.8;
+  font-size: 14px;
+  line-height: 2.29;
+  text-align: left;
+}
+.col1 h2 {
+  color: antiquewhite;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.col2 {
+  line-height: 1.8;
+  color: antiquewhite;
+}
+.col2 h3 {
+  color: antiquewhite;
+  font-size: 20px;
+}
+.col2 p {
+  font-size: 14px;
+  cursor: pointer;
+}
+.col2 p:hover {
+  color: salmon;
+}
+.col2 h3:hover {
+  color: salmon;
+}
+.col3 h3 {
+  color: antiquewhite;
+  font-size: 20px;
+}
+.colContent {
+  display: flex;
+  align-items: center;
+  color: antiquewhite;
+  font-size: 14px;
+  margin: 14px 0;
+  /* background-color: blue; */
+}
+.colContent p {
+  margin-left: 12px;
+}
+.contactLogo {
+  font-size: 28px;
+}
