@@ -1,5 +1,6 @@
 import "./App.css";
 import Courses from "./Components/Courses/Courses";
+import Events from "./Components/EventsPart/Events";
 import Header from "./Components/Header/Header";
 import RegisterContainer from "./Components/Register/RegisterContainer";
 import Services from "./Components/ServiceSection/Services";
@@ -13,6 +14,7 @@ function App() {
       <RegisterContainer />
       <Services />
       <StudentsPrf />
+      <Events />
     </div>
   );
 }

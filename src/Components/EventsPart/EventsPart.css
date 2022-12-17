@@ -1,0 +1,41 @@
+.eventPart {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 1240px;
+  margin: 60px auto;
+}
+.eventCalender {
+  color: salmon;
+  border: 3px solid salmon;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 12px 64px;
+  margin: 18px 0;
+}
+.eventCalender h1 {
+  color: salmon;
+}
+.eventCalender h4 {
+  text-align: center;
+}
+.eventDescription {
+  margin: 0 28px;
+  width: 40%;
+}
+.eventDescription h3 {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.eventDescription h5 {
+  font-size: 16px;
+  color: darkslategray;
+}
+.eventDescription p {
+  color: gray;
+  line-height: 1.6;
+  margin-top: 14px;
+}
