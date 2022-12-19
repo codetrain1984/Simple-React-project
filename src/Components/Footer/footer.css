@@ -65,3 +65,33 @@ hr {
 .social-medias span {
   margin-left: 20px;
 }
+@media screen and (max-width: 600px) {
+  .footer-container {
+    height: 100%;
+  }
+  .copy-right {
+    display: block;
+    width: 80%;
+  }
+  .social-medias {
+    margin: 20px 0;
+  }
+  .inpue-btn {
+    margin-bottom: 20px;
+  }
+  .inpue-btn button {
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+  }
+  .inpue-btn input {
+    width: 65%;
+    padding: 10px;
+    font-size: 12px;
+  }
+  hr {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}

@@ -28,7 +28,6 @@
 .stuContent {
   width: 40%;
   margin: auto;
-  /* background-color: thistle; */
 }
 .stuIcon {
   font-size: 30px;
@@ -41,7 +40,6 @@
 .stuContent p {
   text-align: center;
   color: antiquewhite;
-  /* margin-top: 60px; */
   line-height: 1.6;
 }
 .stuImage {
@@ -63,4 +61,21 @@
 }
 .stuImage h4 {
   color: antiquewhite;
+}
+@media screen and (max-width: 600px) {
+  .stuContainer {
+    height: 100%;
+  }
+
+  .stuContent {
+    width: 70%;
+  }
+  .stuIcon {
+    font-size: 18px;
+  }
+
+  .stuImage img {
+    width: 64px;
+    height: 64px;
+  }
 }

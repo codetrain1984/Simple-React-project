@@ -16,7 +16,6 @@
 .col1 h2 {
   color: antiquewhite;
   text-transform: uppercase;
-  font-size: 30px;
 }
 .col2 {
   line-height: 1.8;
@@ -53,4 +52,20 @@
 }
 .contactLogo {
   font-size: 28px;
+}
+@media screen and (max-width: 600px) {
+  .footer-items {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  .contactLogo {
+    font-size: 20px;
+  }
+
+  .col1 h2 {
+    font-size: 22px;
+  }
 }

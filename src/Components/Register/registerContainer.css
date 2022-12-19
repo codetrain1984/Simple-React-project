@@ -78,3 +78,12 @@ input:focus {
   background-color: salmon;
   color: antiquewhite;
 }
+@media screen and (max-width: 600px) {
+  .registerContainer {
+    display: block;
+  }
+
+  .searchCourse {
+    padding: 80px 0;
+  }
+}

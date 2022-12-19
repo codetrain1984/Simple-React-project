@@ -13,3 +13,8 @@
 .serviceBoxes p {
   line-height: 1.6;
 }
+@media screen and (max-width: 600px) {
+  .serviceBoxes span {
+    font-size: 36px;
+  }
+}

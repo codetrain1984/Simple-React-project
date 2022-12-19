@@ -39,3 +39,26 @@
   line-height: 1.6;
   margin-top: 14px;
 }
+@media screen and (max-width: 600px) {
+  .eventPart {
+    flex-direction: column;
+  }
+  .eventCalender {
+    width: 50px;
+    padding: 8px 36px;
+  }
+
+  .eventDescription {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .eventDescription h3 {
+    letter-spacing: 0;
+  }
+
+  .eventImage img {
+    width: 320px;
+    height: 160px;
+  }
+}

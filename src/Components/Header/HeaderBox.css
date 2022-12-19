@@ -4,6 +4,17 @@
   width: 350px;
   padding: 28px;
   border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.headerBox:hover {
+  background-color: antiquewhite;
+}
+.headerBox:hover h2 {
+  color: darkslategray;
+}
+.headerBox:hover p {
+  color: darkslategray;
 }
 .headerBox span {
   color: salmon;
@@ -27,4 +38,14 @@
   align-items: center;
   justify-content: center;
   margin: 20px 0;
+}
+@media screen and (max-width: 600px) {
+  .headerBox {
+    padding: 10px;
+    width: 320px;
+  }
+
+  .headerBox span {
+    font-size: 36px;
+  }
 }

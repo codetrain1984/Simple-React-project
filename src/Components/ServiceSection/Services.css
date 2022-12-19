@@ -3,7 +3,7 @@
 }
 
 .serviceSection {
-  max-width: 1280px;
+  max-width: 1240px;
   margin: 60px auto;
 }
 .serviceSection h2 {
@@ -13,4 +13,10 @@
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   gap: 20px;
+}
+@media screen and (max-width: 600px) {
+  .serviceContent {
+    display: block;
+    margin: 14px;
+  }
 }

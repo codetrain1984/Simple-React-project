@@ -26,3 +26,15 @@
   grid-template-columns: repeat(3, 1fr);
   margin-top: 40px;
 }
+@media screen and (max-width: 600px) {
+  .titleCourse h2 {
+    margin-top: 0;
+  }
+  .courseBoxes {
+    display: block;
+    margin-top: 0;
+  }
+  .courseContainer {
+    height: 100%;
+  }
+}
