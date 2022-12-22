@@ -2,6 +2,11 @@
   background-color: #f8f9fb;
   width: 360px;
   margin: auto;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.courseBox:hover {
+  width: 380px;
 }
 .boxItems {
   /* padding: 28px; */
@@ -15,8 +20,6 @@
 }
 .boxItems h3 {
   color: darkslategray;
-
-  font-size: 22px;
   letter-spacing: 0.5px;
   margin-top: 60px;
 }

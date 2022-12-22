@@ -23,10 +23,8 @@
 }
 .col2 h3 {
   color: antiquewhite;
-  font-size: 20px;
 }
 .col2 p {
-  font-size: 14px;
   cursor: pointer;
 }
 .col2 p:hover {
@@ -37,13 +35,11 @@
 }
 .col3 h3 {
   color: antiquewhite;
-  font-size: 20px;
 }
 .colContent {
   display: flex;
   align-items: center;
   color: antiquewhite;
-  font-size: 14px;
   margin: 14px 0;
   /* background-color: blue; */
 }
@@ -63,9 +59,5 @@
   }
   .contactLogo {
     font-size: 20px;
-  }
-
-  .col1 h2 {
-    font-size: 22px;
   }
 }

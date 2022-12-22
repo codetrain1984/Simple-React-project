@@ -3,7 +3,7 @@ import CourseBoxes from "./CourseBoxes";
 import "./courses.css";
 import image1 from "../../images/Course/Best-Laptop.jpg";
 import image2 from "../../images/Course/Photography-Brief.jpg";
-import image3 from "../../images/Course/nature-wallpaper.jpg";
+import image3 from "../../images/Course/photoshop-wallpaper.jpg";
 
 const Courses = () => {
   return (

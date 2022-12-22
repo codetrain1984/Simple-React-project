@@ -18,6 +18,9 @@ h1 {
 h2 {
   font-size: 40px;
 }
+h3 {
+  font-size: 26px;
+}
 a {
   text-decoration: none;
 }
@@ -29,13 +32,13 @@ a {
     font-size: 28px;
   }
   h2 {
-    font-size: 28px;
+    font-size: 20px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
   h4 {
-    font-size: 16px;
+    font-size: 14px;
   }
   h5 {
     font-size: 14px;
