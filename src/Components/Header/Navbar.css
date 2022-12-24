@@ -4,23 +4,24 @@
   margin: auto;
   border-radius: 3px;
   margin-top: 28px;
+  overflow: hidden;
+  position: fixed;
+  box-shadow: 0 25px 50px -10px rgba(0, 0, 0, 0.25);
+}
+.navbar .nav-container {
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  overflow: hidden;
-  position: fixed;
 }
-.navList {
+.navbar .nav-menu {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  /* right: 0; */
 }
-.navItems {
+.navbar li {
   list-style: none;
   margin: 10px;
 }
-.navAnchor {
+.navbar a {
   color: salmon;
   font-weight: 600;
   font-size: 18px;
@@ -67,10 +68,30 @@
 }
 
 @media screen and (max-width: 600px) {
-  .navbar {
-    width: 90%;
-    margin-top: 20px;
-    height: 70px;
+  .hamburger {
+    display: block;
+  }
+  .navbar .nav-container {
+    padding: 10px;
+  }
+  .navbar .nav-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 90px;
+    right: -100%;
+    height: 200vh;
+    width: 100%;
+    background-color: antiquewhite;
+    transition: 0.4s ease-in-out;
+    z-index: 10;
+  }
+  .navbar .active {
+    right: 0;
+  }
+  .navbar .nav-menu li a {
+    font-size: 2rem;
   }
   .logoItems {
     margin-left: 10px;
@@ -82,25 +103,8 @@
     font-size: 22px;
     margin-left: 4px;
   }
-  .navList {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    top: 0;
-    right: -100%;
-    height: 100%;
-    width: 100%;
-    background-color: antiquewhite;
-    z-index: 10;
-  }
-  .navbar .active {
-    right: 0;
-  }
+
   .navNumber {
     display: none;
-  }
-  .hamburger {
-    display: block;
   }
 }
