@@ -9,7 +9,7 @@ const FooterItems = () => {
   return (
     <div className="footer-items">
       <div className="col1">
-        <div className="logoItems">
+        <div className="logo-items">
           <FaPenNib className="penLogo" />
           <h2>Course</h2>
         </div>

@@ -40,7 +40,7 @@ const Navbar = () => {
             <a href="#">Contact Us</a>
           </li>
         </ul>
-        <div className={click ? "nav-hamburger " : "active"}>
+        <div className={click ? " active" : "nav-hamburger"}>
           <ul>
             <li>
               <a href="#">Home</a>
@@ -69,8 +69,6 @@ const Navbar = () => {
         </div>
 
         <div onClick={() => setClick(!click)} className="hamburger">
-          {/* <GiHamburgerMenu onClick={() => setClick(true
-          )} className="ham-logo" /> */}
           {click ? (
             <ImCross className="ham-logo" />
           ) : (

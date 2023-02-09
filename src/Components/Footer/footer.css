@@ -65,16 +65,20 @@ hr {
 .social-medias span {
   margin-left: 20px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 758px) {
   .footer-container {
     height: 100%;
   }
   .copy-right {
     display: block;
     width: 80%;
+    margin-bottom: 20px;
   }
   .social-medias {
     margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .inpue-btn {
     margin-bottom: 20px;

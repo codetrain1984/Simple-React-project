@@ -5,6 +5,17 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;
 }
+.logo-items {
+  display: flex;
+  align-items: center;
+}
+.logo-items h2 {
+  margin-left: 10px;
+}
+.logo-items .penLogo {
+  color: salmon;
+  font-size: 1.8rem;
+}
 
 .col1 p {
   color: antiquewhite;
@@ -41,7 +52,6 @@
   align-items: center;
   color: antiquewhite;
   margin: 14px 0;
-  /* background-color: blue; */
 }
 .colContent p {
   margin-left: 12px;
@@ -49,13 +59,16 @@
 .contactLogo {
   font-size: 28px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 758px) {
   .footer-items {
     width: 80%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: auto;
+  }
+  .logo-items .penLogo {
+    font-size: 1.1rem;
   }
   .contactLogo {
     font-size: 20px;
