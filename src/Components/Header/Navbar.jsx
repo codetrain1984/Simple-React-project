@@ -8,19 +8,19 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
-  const handleClick = () => {
-    setClick(!click);
-  };
+
   return (
     <div className="navbar">
       <div className="nav-container">
-        <h2>
-          <span>
-            <FaPenNib className="penLogo" />
-          </span>
-          Course
-        </h2>
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <div className="nav-title">
+          <h2>
+            <span>
+              <FaPenNib className="pen-logo" />
+            </span>
+            Course
+          </h2>
+        </div>
+        <ul className="nav-menu">
           <li>
             <a href="#">Home</a>
           </li>
@@ -37,18 +37,44 @@ const Navbar = () => {
             <a href="#">News</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#">Contact Us</a>
           </li>
         </ul>
-        <div className="navNumber">
+        <div className={click ? "nav-hamburger " : "active"}>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Courses</a>
+            </li>
+            <li>
+              <a href="#">Elements</a>
+            </li>
+            <li>
+              <a href="#">News</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="nav-number">
           <BsTelephoneFill className="icon" />
           <p>+989123768818</p>
         </div>
-        <div className="hamburger" onClick={handleClick}>
+
+        <div onClick={() => setClick(!click)} className="hamburger">
+          {/* <GiHamburgerMenu onClick={() => setClick(true
+          )} className="ham-logo" /> */}
           {click ? (
-            <ImCross className="hamLogo" />
+            <ImCross className="ham-logo" />
           ) : (
-            <GiHamburgerMenu className="hamLogo" />
+            <GiHamburgerMenu className="ham-logo" />
           )}
         </div>
       </div>

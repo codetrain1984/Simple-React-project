@@ -1,110 +1,121 @@
 .navbar {
-  background-color: antiquewhite;
-  width: 80%;
-  margin: auto;
-  border-radius: 3px;
-  margin-top: 28px;
-  overflow: hidden;
   position: fixed;
-  box-shadow: 0 25px 50px -10px rgba(0, 0, 0, 0.25);
+  width: 80%;
+  height: 110px;
+  background-color: antiquewhite;
+  margin-top: 30px;
+  border-radius: 3px;
 }
-.navbar .nav-container {
+.nav-container {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.navbar .nav-menu {
+.nav-title {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.nav-title .pen-logo {
+  color: salmon;
+  margin-right: 7px;
+}
+.nav-menu {
   display: flex;
 }
-.navbar li {
+.nav-menu li {
   list-style: none;
+}
+.nav-menu li a {
+  color: salmon;
+  font-size: 1.2rem;
   margin: 10px;
-}
-.navbar a {
-  color: salmon;
-  font-weight: 600;
-  font-size: 18px;
-}
-.logoItems {
-  margin-left: 16px;
-  display: flex;
-  align-items: center;
-}
-.logoItems h2 {
-  margin-left: 14px;
-}
-.penLogo {
-  font-size: 40px;
-  color: salmon;
-  transform: rotate(180deg);
-  margin-left: 30px;
-}
-.navNumber {
-  background-color: salmon;
-  display: flex;
-  align-items: center;
-  padding: 36px;
-  float: right;
-  color: antiquewhite;
-  font-weight: 30px;
-}
-.navNumber p {
-  font-size: 20px;
   font-weight: 500;
 }
-.icon {
-  margin-right: 10px;
-  font-size: 30px;
+.nav-number {
+  background-color: salmon;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
   color: antiquewhite;
+  font-size: 1.3rem;
+}
+.nav-number .icon {
+  color: antiquewhite;
+  margin-right: 10px;
+  font-size: 1.4rem;
 }
 .hamburger {
   display: none;
 }
-.hamLogo {
-  font-size: 22px;
-  margin-right: 8px;
-  cursor: pointer;
+.nav-hamburger {
+  display: none;
 }
+@media screen and (max-width: 758px) {
+  .navbar {
+    height: 55px;
+    width: 90%;
+  }
+  .nav-title {
+    margin-left: 10px;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .nav-hamburger {
+    right: -200%;
+    top: 50px;
+    transition: all 0.5s ease-in-out;
+  }
 
-@media screen and (max-width: 600px) {
-  .hamburger {
-    display: block;
+  .nav-hamburger ul {
+    margin-top: 50px;
   }
-  .navbar .nav-container {
-    padding: 10px;
+  .nav-hamburger ul li {
+    list-style: none;
+    text-align: center;
+    margin-top: 15px;
   }
-  .navbar .nav-menu {
+  .nav-hamburger ul li a {
+    font-size: 1.4rem;
+    color: darkslategray;
+  }
+  .active {
     position: absolute;
+    right: 0;
+    top: 50px;
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    border-radius: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 90px;
-    right: -100%;
-    height: 200vh;
-    width: 100%;
-    background-color: antiquewhite;
-    transition: 0.4s ease-in-out;
-    z-index: 10;
   }
-  .navbar .active {
-    right: 0;
+  .active ul li {
+    list-style: none;
+    text-align: center;
+    margin-top: 15px;
   }
-  .navbar .nav-menu li a {
-    font-size: 2rem;
-  }
-  .logoItems {
-    margin-left: 10px;
-  }
-  .logoItems h2 {
-    margin-left: 8px;
-  }
-  .penLogo {
-    font-size: 22px;
-    margin-left: 4px;
+  .active ul li a {
+    font-size: 1.4rem;
+    color: darkslategray;
   }
 
-  .navNumber {
+  .nav-number {
     display: none;
+  }
+  .hamburger {
+    display: block;
+    margin-right: 10px;
+  }
+  .hamburger .ham-logo {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .nav-logo {
+    cursor: pointer;
   }
 }
