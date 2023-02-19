@@ -5,7 +5,7 @@
   position: relative;
 }
 .stuContainer::before {
-  content: "";
+  content: '';
   position: absolute;
   background-image: url(../../images/Course/Graduation.jpg);
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 .stuSection h2 {
   color: antiquewhite;
   text-align: center;
-  margin: 60px 0;
+  margin: 30px 0;
 }
 .stuContent {
   width: 40%;

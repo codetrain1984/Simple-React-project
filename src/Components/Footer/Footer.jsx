@@ -1,8 +1,8 @@
-import React from "react";
-import "./footer.css";
-import FooterItems from "./FooterItems";
-import { FaPinterest, FaInstagram } from "react-icons/fa";
-import { BsLinkedin, BsFacebook, BsTwitter } from "react-icons/bs";
+import React from 'react'
+import './footer.css'
+import FooterItems from './FooterItems'
+import { FaPinterest, FaInstagram } from 'react-icons/fa'
+import { BsLinkedin, BsFacebook, BsTwitter } from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="footer-section">
         <div className="line"></div>
         <h2>Subscribe to newsletter</h2>
-        <div className="inpue-btn">
+        <div className="input-btn">
           <input type="text" placeholder="Email Address" />
-          <button>Subscrib</button>
+          <button>Subscribe</button>
         </div>
         <hr />
       </div>
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

@@ -1,7 +1,7 @@
 .headerBox {
   background-color: darkslategrey;
   margin: 20px 14px;
-  width: 350px;
+  width: 330px;
   padding: 28px;
   border-radius: 5px;
   cursor: pointer;
@@ -27,7 +27,7 @@
 }
 .headerBox p {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   margin-top: 15px;
   cursor: pointer;

@@ -1,6 +1,6 @@
 .footer-items {
   width: 1140px;
-  margin: 60px auto;
+  margin: 50px auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;

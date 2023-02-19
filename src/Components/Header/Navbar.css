@@ -1,7 +1,7 @@
 .navbar {
   position: fixed;
   width: 80%;
-  height: 110px;
+  height: 95px;
   background-color: antiquewhite;
   margin-top: 30px;
   border-radius: 3px;
@@ -30,10 +30,11 @@
 }
 .nav-menu li a {
   color: salmon;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 10px;
   font-weight: 500;
 }
+
 .nav-number {
   background-color: salmon;
   height: 100%;
@@ -41,7 +42,7 @@
   align-items: center;
   padding: 0 40px;
   color: antiquewhite;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 .active {
   display: none;
