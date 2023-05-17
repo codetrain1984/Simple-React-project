@@ -1,5 +1,4 @@
-import React from "react";
-import "./ServiceBoxes.css";
+import React from 'react'
 
 const ServiceBoxes = ({ title, icon }) => {
   return (
@@ -11,7 +10,7 @@ const ServiceBoxes = ({ title, icon }) => {
         fuga maxime quia sapiente ipsa neque ullam? Sed.
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default ServiceBoxes;
+export default ServiceBoxes

@@ -1,9 +1,9 @@
-import React from "react";
-import CourseBoxes from "./CourseBoxes";
-import "./courses.css";
-import image1 from "../../images/Course/Best-Laptop.jpg";
-import image2 from "../../images/Course/Photography-Brief.jpg";
-import image3 from "../../images/Course/photoshop-wallpaper.jpg";
+import React from 'react'
+import './courses.css'
+import image1 from '../../images/Course/Best-Laptop.jpg'
+import image2 from '../../images/Course/Photography-Brief.jpg'
+import image3 from '../../images/Course/photoshop-wallpaper.jpg'
+import CourseBoxes from './CourseBoxes'
 
 const Courses = () => {
   return (
@@ -18,7 +18,7 @@ const Courses = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Courses;
+export default Courses

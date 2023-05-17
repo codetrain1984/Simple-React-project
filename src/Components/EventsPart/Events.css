@@ -5,3 +5,80 @@
   text-align: center;
   margin-top: 60px;
 }
+#dark .eventSection h2 {
+  color: antiquewhite;
+}
+
+/* EventParts style */
+
+.eventPart {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 1240px;
+  margin: 60px auto;
+}
+.eventCalender {
+  color: salmon;
+  border: 3px solid salmon;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 12px 64px;
+  margin: 18px 0;
+}
+.eventCalender h1 {
+  color: salmon;
+}
+.eventCalender h4 {
+  text-align: center;
+}
+
+.eventDescription {
+  margin: 0 28px;
+  width: 40%;
+}
+.eventDescription h3 {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.eventDescription h5 {
+  font-size: 16px;
+  color: darkslategray;
+}
+#dark .eventDescription h3 {
+  color: antiquewhite;
+}
+#dark .eventDescription h5 {
+  color: antiquewhite;
+}
+.eventDescription p {
+  color: gray;
+  line-height: 1.6;
+  margin-top: 14px;
+}
+@media screen and (max-width: 600px) {
+  .eventPart {
+    flex-direction: column;
+  }
+  .eventCalender {
+    width: 50px;
+    padding: 8px 36px;
+  }
+
+  .eventDescription {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .eventDescription h3 {
+    letter-spacing: 0;
+  }
+
+  .eventImage img {
+    width: 320px;
+    height: 160px;
+  }
+}

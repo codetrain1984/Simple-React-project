@@ -1,5 +1,4 @@
-import React from "react";
-import "./EventsPart.css";
+import React from 'react'
 
 const EventParts = ({ title, image }) => {
   return (
@@ -21,7 +20,7 @@ const EventParts = ({ title, image }) => {
         <img width={360} height={180} src={image} alt="/" />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default EventParts;
+export default EventParts

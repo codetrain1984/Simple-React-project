@@ -47,3 +47,11 @@ a:hover {
     font-size: 14px;
   }
 }
+#dark {
+  background-color: rgb(31, 31, 31);
+  color: antiquewhite;
+}
+#light {
+  background-color: #fff;
+  color: rgb(31, 31, 31);
+}

@@ -1,19 +1,25 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from "react";
-import "./Navbar.css";
-import { BsTelephoneFill } from "react-icons/bs";
-import { FaPenNib } from "react-icons/fa";
-import { ImCross } from "react-icons/im";
-import { GiHamburgerMenu } from "react-icons/gi";
+import React, { useContext, useState } from 'react'
+import './Navbar.css'
+import { BsFillSunFill, BsTelephoneFill } from 'react-icons/bs'
+import { FaPenNib } from 'react-icons/fa'
+import { ImCross } from 'react-icons/im'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { BiMoon } from 'react-icons/bi'
+import { ThemeContext } from '../Context/ThemeContext'
 
 const Navbar = () => {
-  const [click, setClick] = useState(false);
+  const [click, setClick] = useState(false)
+  const [theme, themeToggler] = useContext(ThemeContext)
 
   return (
     <div className="navbar">
       <div className="nav-container">
         <div className="nav-title">
           <h2>
+            <span onClick={themeToggler} className="themeSwitcher">
+              {theme === 'light' ? <BiMoon /> : <BsFillSunFill />}
+            </span>
             <span>
               <FaPenNib className="pen-logo" />
             </span>
@@ -40,7 +46,7 @@ const Navbar = () => {
             <a href="#">Contact Us</a>
           </li>
         </ul>
-        <div className={click ? " active" : "nav-hamburger"}>
+        <div className={click ? ' active' : 'nav-hamburger'}>
           <ul>
             <li>
               <a href="#">Home</a>
@@ -77,7 +83,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

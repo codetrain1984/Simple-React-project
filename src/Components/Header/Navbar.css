@@ -7,6 +7,16 @@
   border-radius: 3px;
   z-index: 9999;
 }
+.themeSwitcher {
+  margin-right: 5px;
+  cursor: pointer;
+}
+#dark .themeSwitcher {
+  color: salmon;
+}
+#light .themeSwitcher {
+  color: darkslategray;
+}
 .nav-container {
   height: 100%;
   display: flex;

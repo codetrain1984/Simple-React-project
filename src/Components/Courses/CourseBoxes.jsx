@@ -1,6 +1,5 @@
-import React from "react";
-import "./CourseBoxes.css";
-import personalImg from "../../images/Course/personal.jpg";
+import React from 'react'
+import personalImg from '../../images/Course/personal.jpg'
 
 const CourseBoxes = ({ image, boxTitle }) => {
   return (
@@ -24,7 +23,7 @@ const CourseBoxes = ({ image, boxTitle }) => {
         <h4>29$</h4>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CourseBoxes;
+export default CourseBoxes
