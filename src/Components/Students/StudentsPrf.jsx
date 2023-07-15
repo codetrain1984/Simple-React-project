@@ -1,7 +1,7 @@
-import React from "react";
-import "./StudentPrf.css";
-import stuImag from "../../images/Course/Graduation.jpg";
-import { IoMdQuote } from "react-icons/io";
+import React from 'react'
+import './StudentPrf.css'
+import stuImag from '../../images/Course/Graduation.jpg'
+import { IoMdQuote } from 'react-icons/io'
 
 const StudentsPrf = () => {
   return (
@@ -25,7 +25,7 @@ const StudentsPrf = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default StudentsPrf;
+export default StudentsPrf

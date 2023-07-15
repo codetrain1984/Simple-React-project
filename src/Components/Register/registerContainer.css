@@ -37,6 +37,33 @@
   cursor: pointer;
   margin-top: 20px;
   letter-spacing: 1px;
+  animation: vibrate-1 0.3s linear infinite both;
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
 }
 .searchCourse {
   background-color: antiquewhite;
@@ -76,6 +103,11 @@ input:focus {
   border: none;
   background-color: salmon;
   color: antiquewhite;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.searchSection button:hover {
+  background-color: darkslategrey;
 }
 @media screen and (max-width: 600px) {
   .registerContainer {

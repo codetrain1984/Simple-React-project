@@ -1,9 +1,9 @@
-import React from "react";
-import Navbar from "./Navbar";
-import "./Header.css";
-import HeaderBox from "./HeaderBox";
-import { ImEarth } from "react-icons/im";
-import { FaSwatchbook, FaChalkboardTeacher } from "react-icons/fa";
+import React from 'react'
+import Navbar from './Navbar'
+import './Header.css'
+import HeaderBox from './HeaderBox'
+import { ImEarth } from 'react-icons/im'
+import { FaSwatchbook, FaChalkboardTeacher } from 'react-icons/fa'
 
 const Header = () => {
   return (
@@ -20,7 +20,7 @@ const Header = () => {
         <HeaderBox title="Our Teachers" logo={<FaChalkboardTeacher />} />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

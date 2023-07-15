@@ -7,7 +7,7 @@
 .stuContainer::before {
   content: '';
   position: absolute;
-  background-image: url(../../images/Course/Graduation.jpg);
+  background-image: url('../../images/Course/Graduation.jpg');
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: cover;

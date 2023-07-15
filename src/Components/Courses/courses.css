@@ -46,11 +46,11 @@
   background-color: #f8f9fb;
   width: 360px;
   margin: auto;
-  transition: 0.3s ease-in-out;
+  transition: 0.4s ease;
   cursor: pointer;
 }
 .courseBox:hover {
-  width: 370px;
+  transform: scale(1.05);
 }
 .boxItems {
   /* padding: 28px; */
@@ -87,6 +87,7 @@
   color: gray;
   font-size: 14px;
 }
+
 .personelBox h4 {
   background-color: salmon;
   padding: 18px;
