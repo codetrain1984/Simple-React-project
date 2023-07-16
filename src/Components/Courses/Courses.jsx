@@ -7,7 +7,7 @@ import CourseBoxes from './CourseBoxes'
 
 const Courses = () => {
   return (
-    <div className="courseContainer">
+    <div className="courseContainer" id="courses">
       <div className="titleCourse">
         <div className="line"></div>
         <h2>Popular Courses</h2>

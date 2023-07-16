@@ -7,7 +7,7 @@ import { FaSwatchbook, FaChalkboardTeacher } from 'react-icons/fa'
 
 const Header = () => {
   return (
-    <div className="container">
+    <div className="container" id="hero">
       <Navbar />
       <div className="title">
         <h1>

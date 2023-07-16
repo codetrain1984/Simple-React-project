@@ -7,6 +7,7 @@ import { ImCross } from 'react-icons/im'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { BiMoon } from 'react-icons/bi'
 import { ThemeContext } from '../Context/ThemeContext'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   const [click, setClick] = useState(false)
@@ -28,22 +29,67 @@ const Navbar = () => {
         </div>
         <ul className="nav-menu">
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">About Us</a>
+            <Link
+              to="courses"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              style={{ cursor: 'pointer' }}
+            >
+              Courses
+            </Link>
           </li>
           <li>
-            <a href="#">Courses</a>
+            <Link
+              to="register"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              style={{ cursor: 'pointer' }}
+            >
+              Register
+            </Link>
           </li>
           <li>
-            <a href="#">Elements</a>
+            <Link
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              style={{ cursor: 'pointer' }}
+            >
+              Services
+            </Link>
           </li>
           <li>
-            <a href="#">News</a>
+            <Link
+              to="events"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              style={{ cursor: 'pointer' }}
+            >
+              Events
+            </Link>
           </li>
           <li>
-            <a href="#">Contact Us</a>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              style={{ cursor: 'pointer' }}
+            >
+              Contact us
+            </Link>
           </li>
         </ul>
         <div className={click ? ' active' : 'nav-hamburger'}>

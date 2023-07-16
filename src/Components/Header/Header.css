@@ -7,12 +7,12 @@
   justify-content: space-between;
   width: 100%;
   height: 100vh;
+  z-index: 1;
 }
 .container::before {
   content: '';
   position: absolute;
-  background: url('../../images/book-stack-library.jpg') no-repeat center
-    center/cover;
+  background: url('../../images/library2.jpg') no-repeat center center/cover;
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -21,8 +21,7 @@
 .title {
   width: 50%;
   margin: auto;
-
-  animation: slide-bottom 0.8s;
+  animation: slide-bottom 0.8s ease;
 }
 @keyframes slide-bottom {
   0% {
@@ -38,11 +37,14 @@
   margin-top: 100px;
   text-align: center;
   padding: 5px;
+
   color: antiquewhite;
+  -webkit-text-stroke: 2px darkslategray;
 }
 .title span {
   background-color: salmon;
   color: darkslategray;
+  -webkit-text-stroke: 0;
 }
 
 .boxes {
@@ -50,6 +52,13 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   margin: auto;
+}
+.return {
+  position: fixed;
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 @media screen and (max-width: 600px) {
   .title {

@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import React, { useContext } from 'react'
 import './App.css'
 import Courses from './Components/Courses/Courses'
 import Events from './Components/EventsPart/Events'
@@ -8,9 +8,16 @@ import RegisterContainer from './Components/Register/RegisterContainer'
 import Services from './Components/ServiceSection/Services'
 import StudentsPrf from './Components/Students/StudentsPrf'
 import { ThemeContext } from './Components/Context/ThemeContext'
+import { BiUpArrowCircle } from 'react-icons/bi'
 
 function App() {
   const [theme] = useContext(ThemeContext)
+  const handleScroll = () => {
+    window.scroll({
+      top: 0,
+      behavior: 'smooth',
+    })
+  }
   return (
     <div className="App" id={theme}>
       <Header />
@@ -20,6 +27,9 @@ function App() {
       <StudentsPrf />
       <Events />
       <Footer />
+      <button className="scroll-top" onClick={handleScroll}>
+        <BiUpArrowCircle className="scroll-icon" />
+      </button>
     </div>
   )
 }

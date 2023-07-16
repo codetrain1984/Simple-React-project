@@ -6,7 +6,7 @@ import { BsLinkedin, BsFacebook, BsTwitter } from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="contact">
       <div className="footer-section">
         <div className="line"></div>
         <h2>Subscribe to newsletter</h2>

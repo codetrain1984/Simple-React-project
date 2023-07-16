@@ -1,9 +1,9 @@
-import React from "react";
-import "./registerContainer.css";
+import React from 'react'
+import './registerContainer.css'
 
 const RegisterContainer = () => {
   return (
-    <div className="registerContainer">
+    <div className="registerContainer" id="register">
       <div className="registerSection">
         <div className="registerContent">
           <h2>
@@ -32,7 +32,7 @@ const RegisterContainer = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default RegisterContainer;
+export default RegisterContainer
