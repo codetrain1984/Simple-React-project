@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import './App.css'
 import Courses from './Components/Courses/Courses'
 import Events from './Components/EventsPart/Events'
@@ -11,6 +11,7 @@ import { ThemeContext } from './Components/Context/ThemeContext'
 import { BiUpArrowCircle } from 'react-icons/bi'
 
 function App() {
+  const [state, setState] = useState(false)
   const [theme] = useContext(ThemeContext)
   const handleScroll = () => {
     window.scroll({
@@ -24,6 +25,7 @@ function App() {
       <Courses />
       <RegisterContainer />
       <Services />
+
       <StudentsPrf />
       <Events />
       <Footer />

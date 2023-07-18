@@ -14,8 +14,7 @@ const StudentsPrf = () => {
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
             iure. Accusamus maiores nemo sequi esse aspernatur iure cupiditate
-            earum inventore vel atque! Autem adipisci modi repudiandae tempore
-            nisi voluptate. Laborum unde natus quibusdam labore maiores?
+            earum inventore vel atque!
           </p>
           <div className="stuImage">
             <img width={94} height={94} src={stuImag} alt="/" />

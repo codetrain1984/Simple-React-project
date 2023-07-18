@@ -1,23 +1,11 @@
 .container {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background: url('../../images/library22.jpg') no-repeat center center/cover;
   width: 100%;
   height: 100vh;
-  background: url('../../images/library2.jpg') no-repeat center center/cover;
-  isolation: isolate;
-}
-.container::after {
-  content: '';
-  position: absolute;
-  background-color: darkslategray;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0.5;
 }
 
 .title {
@@ -41,7 +29,6 @@
   padding: 5px;
 
   color: antiquewhite;
-  -webkit-text-stroke: 2px darkslategray;
 }
 .title span {
   background-color: salmon;

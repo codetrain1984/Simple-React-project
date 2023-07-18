@@ -31,22 +31,26 @@
   padding: 15px;
   margin-top: 60px;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 10px;
   border: 1px solid #ccc;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   transition: all 0.5s;
 }
 
 .serviceBoxes:hover {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   transform: scale(1.04);
 }
 .serviceBoxes h3 {
   margin: 20px 0;
 }
 .serviceBoxes span {
-  color: salmon;
+  color: darkslategrey;
   font-size: 48px;
 }
+#dark .serviceBoxes span {
+  color: salmon;
+}
+
 #dark .serviceBoxes h3 {
   color: antiquewhite;
 }

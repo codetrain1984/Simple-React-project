@@ -55,6 +55,8 @@
   padding: 0 40px;
   color: antiquewhite;
   font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 0 4px 4px 0;
 }
 .active {
   display: none;

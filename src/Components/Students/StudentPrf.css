@@ -1,10 +1,10 @@
 .stuContainer {
+  display: flex;
   width: 100%;
   position: relative;
   isolation: isolate;
   background: url('../../images/Course/Graduation.jpg') no-repeat center
     center/cover;
-  isolation: isolate;
 }
 .stuContainer::after {
   content: '';

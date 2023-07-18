@@ -29,9 +29,6 @@ const Navbar = () => {
         </div>
         <ul className="nav-menu">
           <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
             <Link
               to="courses"
               spy={true}
